@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: thistle;
+        }
+        .main{
+        border: 3px white solid;
+            margin: 80px 150px;
+            height: 700px;
+            text-align: center;
+            position: relative;
+        }
+        h1{
+            font-size: 3.5rem;
+        }
+        .alphBtn{
+            margin: 3px;
+            width: 40px;
+            height: 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+        .question{
+            font-size: 4rem;
+        }
+        .spns{
+            margin: 10px;
+            font-weight: bolder
+        }
+        .plyagn{
+            width: 200px;
+            height: 260px;
+            font-size: 4rem;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: chocolate;
+            border-radius: 15px;
+            border: 4px yellow solid;
+            margin: 0 6px;
+            cursor: pointer;
+        }
+        .tip{
+            width: 200px;
+            height: 260px;
+            font-size: 4rem;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: chocolate;
+            border-radius: 15px;
+            border: 4px yellow solid;
+            margin: 0 6px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>HANGMAN</h1>
+        <div class="alphBox">
+        </div> <br>
+        <div class="question">
+        </div>
+        <div class="result">
+        </div>
+        <div class="btns">
+            <button class="plyagn">Play Again!</button>
+            <img class="img" src="/img/Adsız10.png" alt="">
+            <button class="tip">Get Tip!</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
